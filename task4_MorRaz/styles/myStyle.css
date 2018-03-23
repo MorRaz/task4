@@ -1,0 +1,68 @@
+body 
+{
+    direction:rtl;
+    font-family:Arial;
+}
+#container{
+    background-image: url('../image/star.jpg');
+    background-size:cover;
+    background-repeat:round;
+    height:900px;
+    text-align:center;
+    margin:20px auto;
+}
+nav.tabs ul
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+nav.tabs ul li
+{
+    display:inline-block;
+}
+nav.tabs ul li a
+{
+    color:black;
+    text-decoration:none;
+    display:block;
+    width:135px;
+    height:30px;
+    text-align:center;  
+
+    padding-top:10px;
+    background-color:pink;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px; 
+}
+nav.tabs ul li a.open
+{
+     background-color:deeppink;
+     color:black;
+}
+nav.tabs ul li a:hover
+{
+    background-color:gainsboro;
+}
+nav.tabs ul li a:active
+{
+    background-color:hotpink;
+}
+.page1{
+        line-height:150%;
+    background-color:lightgray;
+    padding:30px;
+    height:300px;
+    width:495px;
+    margin-right:353px;
+        -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
